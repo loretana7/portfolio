@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head> 
+       <meta charset="UTF-8" />
+       <meta http-equiv="X-UA-Compatible" Content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.6">
+       <title>"Mi portfolio web"</title>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />       
+       <link rel="stylesheet" href="style.css">
+  
+</head>
+   <body>
+       
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary" >
+        <div class="container-fluid">
+          <a class="navbar-brand"  href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="blank"><img src="./images/ArgentinaPrograma.png" whidth="60" height="60"></a>
+  
+          <a class="navbar-brand" href="https://www.argentina.gob.ar/produccion/argentina-programa/segunda-etapa" target="blank"><img src="./images/Ministerio.png" whidth="60" height="60"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item ms-auto">
+                <a class="nav-link active"  aria-current="page" href="https://www.facebook.com/lorena.benitez.37669"  target="blank"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="nav-item " >
+                <a class="nav-link" href="./images/notenemos.html" target="blank"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="https://www.instagram.com/lore_sol_benitez/" target="blank"><i class="fab fa-instagram-square"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section>
+        <header>
+            <div class="card">
+               <div class="container-portada"><!-- aca voy a poner el banner-->
+                 <div class="container-details">
+                   <div class="details">
+                     <h1>Bienvenidos al GRAN recorrido</h1>
+                   </div>
+                 </div>
+               </div><!-- hasta aca el banner-->
+              <div class="card-body">
+                <div  class="card-img-top">
+                  <img src="./images/perfil.jpg" whidth="130" height="130" alt="" class="border border-info border-5 rounded-circle " >
+                       <div class="card-title">
+                         <h1>Mi perfil</h1>
+                       
+                        </div>
+                       
+                 </div>
+             
+                </div>
+                <ul>
+                     <h1> Benitez Lorena Soledad</h1>
+                     <li><p id="about-text" class="card-text"> Edad: 32 </p></li>
+                     <li><p id="about-text" class="card-text">Email: loretana7@gmail.com</p></li>
+                     <li><p id="about-text">Estudiante en Sistemas de Informacion</p>      </li>
+                    </ul> 
+                </div>
+         </header>
+         <article class="card ">
+            <div class="card-title ">
+              <h2> Acerca de</h2>
+               <div class="title-button">
+                  <a hfref="r" onclick="editAbout();"><i class="fa fa-pen"></i></a> 
+               </div>
+              </div>
+           <div class="card-body">
+          
+              <p id="about-text1"> Programador full stack developer jr</p>
+              <input id="about-input" type="text" style="display:none; width: 90%;"> 
+
+           </div>
+          </article>
+        <article class="card">
+            <div class="card-title">
+                <h2> Experiencias</h2>
+                <div class="title-button">
+        
+                  <a hfref="r" onclick="editAbout();"><i class="fa fa-pen"></i></a> 
+                  </div>
+                </div>
+            <div class="card-body">
+               <ul>
+                <li> Trabajo voluntario en la bibilioteca Bartolome Mitre situada en Belgrano 553 Pilar de marzo a diciembre de 2007  </li>
+                <li> Venta al publico en un local de ropa para niños  terminal pilar local 48 "pitu" periodo 2008-2014</li>
+                <li> Proyecto integrador "Mi porfolio web" </li>
+               </ul>
+             </div>
+          </article>
+        <article class="card">
+            <div class="card-title">
+              <h2> Educacion</h2>
+            <div class="title-button">
+                <a hfref="r" onclick="editAbout();"><i class="fa fa-pen"></i></a> 
+            </div>
+             </div>
+            <div class="card-body">
+              <ul>
+              <div class="card-img-top" >
+                <img src="./images/39.webp" whidth="50" height="50" alt="" class="border border-info border-5 rounded-circle " >
+               <p id="about-text">Primario:Escuela Nro 39 "antoña cabral de callait" Grandbourg Malvinas Argentinas Bs As</p>
+               <p id="about-text">periodo 1995-2003</p>
+              </div>
+             <div class="card-img-top" >
+               <img src="./images/tratado.jpg" whidth="50" height="50" alt="" class="border border-info border-5 rounded-circle " >
+                <p id="about-text">Secundario: Escuela Media Nro 8 "TRATADO DEL PILAR" Pilar pelagio Baltazar Luna 1200 Buenos Aires</p>
+                <p id="about-text">periodo 2003-2007</p>
+              </div>
+         
+              <div class="card-img-top" >
+                <img src="./images/lujan.png" whidth="50" height="50" alt="" class="border border-info border-5 rounded-circle " >
+                <p id="about-text">Universidad:"Universidad Nacional de Lujan" Ruta 5 y Av. Constitucion Lujan</p>
+                <p id="about-text">periodo 2009-actualmente cursando</p>
+                </div>
+           </div>
+          </ul>
+        </article>
+        <article> 
+           <div class="card-title">
+            <h2> Capacidades</h2>
+          <div class="title-button">
+              <a hfref="r" onclick="editAbout();"><i class="fa fa-pen"></i></a> 
+          </div>
+           </div>
+          <div class="card-body">
+            <!-- aca voy a poner la barra de progreso -->
+            <div class = "container">
+                <div class="row"> <!-- la fila -->
+                    <div class="col-3 "><b>Pascal</b> </div>
+                 <div class="col-9">
+                
+                   <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><font color="black"> 50%</font></div>
+                      <div class="progress-bar  bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                 </div>
+                </div>
+               <div class="row"> <!-- la  2da fila -->
+                  <div class="col-3 "><b> Delfhi</b></div>
+                    <div class="col-9">
+            
+                     <div class="progress">
+                       <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><font color="black"> 60%</font></div>
+                       <div class="progress-bar  bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                 </div>
+                </div>
+                 <div class="row"> <!-- la 3ra fila -->
+                  <div class="col-3 "><b>Java</b></div>
+                 <div class="col-9">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"><font color="black"> 55%</font></div>
+                    <div class="progress-bar  bg-success" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                 </div>
+                </div>
+                </div>
+              
+                 
+            </div>
+          <!-- aca voy a poner la barra de progreso -->
+          </div></article>
+        <article> <div class="card-title">
+            <h2> Proyectos</h2>
+          <div class="title-button">
+              <a hfref="r" onclick="editAbout();"><i class="fa fa-pen"></i></a> 
+          </div>
+           </div>
+          <div class="card-body">
+              <ul>
+                 <li id="about-text">" Mi primer proyecto es el Portfolio Web"</li>
+             </ul>
+         </div></article>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script language="JavaScript" src="app.js" > </script> </script>    
+</body>
+</html>

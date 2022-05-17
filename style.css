@@ -1,0 +1,118 @@
+*{
+    font-size: 16pt;
+font-family: 'Courier New', Courier, monospace;
+}
+
+article .card-body .container{
+    font-size: 25pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+section header .card-body {
+    background: linear-gradient(135deg,#0087DA,#cedc32,#02f380,#161569,#5a4894,#95a,#FF7cae);
+    background-size: 450%;
+}
+section header  .card{
+    background: linear-gradient(135deg,#0087DA,#cedc32,#02f380,#161569,#5a4894,#95a,#FF7cae);
+    background-size: 450%;
+}
+
+ 
+
+ section article{
+    background: linear-gradient(135deg,#0087DA,#cedc32,#02f380,#161569,#5a4894,#95a,#FF7cae);
+    background-size: 450%;
+
+}
+ul{
+    font-weight: bold;
+}
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+button.add-button{
+
+    background-color: rebeccapurple;
+}
+.footer{
+    background-color: aqua;
+    padding: 0.5rem;
+}
+.card-img-top{
+    display: flex;
+}
+.card .card-img-top{
+    flex:5
+}
+.card .card-img-top .card-title{
+    flex:5
+}
+.card .card-text{
+    flex:10;
+}
+.card-img-top p{
+    flex :7;
+}
+
+.card-title h1{
+    flex:7;
+    }
+.card-title{
+    display: flex; 
+}
+.card-title h2{
+flex:10;
+}
+.card-title .title-button{
+    flex: 1;
+
+}
+
+
+.card-body{
+    display: flex;
+}
+
+/*el banner*/
+.container-portada{
+    width: 100%;
+    height: 200px;
+    background-image : linear-gradient(135deg,#e0f30f,#02f380,rgb(190, 27, 231),#FF7cae,rgb(20, 20, 243));
+    background-size: 150%;
+    animation: movimiento 20s linear infinite alternate;
+
+}
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+
+    }
+    
+}
+.capa-gradient{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    background : -webkit-linear-gradient(left,black,#0672d0);
+    opacity: 0.5;
+}
+.container-details{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin:auto;
+}
+.details{
+    width: 100%;
+     max-width: 500px;
+     position: relativ; ;
+     top:40px;
+     color:white;
+}
+.details h1{
+    margin-top: 10px;
+    font-size: 35pt;
+}
+/*hasta aca el banner*/
